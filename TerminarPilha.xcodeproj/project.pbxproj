@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		02CFBE121A84F497001FD488 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CFBE111A84F497001FD488 /* main.m */; };
+		02CFBE1A1A84F4C2001FD488 /* Pilha.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CFBE191A84F4C2001FD488 /* Pilha.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		02CFBE0E1A84F497001FD488 /* ExercicioPillha */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ExercicioPillha; sourceTree = BUILT_PRODUCTS_DIR; };
+		02CFBE0E1A84F497001FD488 /* TerminarPilha */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TerminarPilha; sourceTree = BUILT_PRODUCTS_DIR; };
 		02CFBE111A84F497001FD488 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02CFBE181A84F4C2001FD488 /* Pilha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pilha.h; sourceTree = "<group>"; };
+		02CFBE191A84F4C2001FD488 /* Pilha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pilha.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		02CFBE051A84F497001FD488 = {
 			isa = PBXGroup;
 			children = (
+				02CFBE181A84F4C2001FD488 /* Pilha.h */,
+				02CFBE191A84F4C2001FD488 /* Pilha.m */,
 				02CFBE101A84F497001FD488 /* ExercicioPillha */,
 				02CFBE0F1A84F497001FD488 /* Products */,
 			);
@@ -49,7 +54,7 @@
 		02CFBE0F1A84F497001FD488 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				02CFBE0E1A84F497001FD488 /* ExercicioPillha */,
+				02CFBE0E1A84F497001FD488 /* TerminarPilha */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		02CFBE0D1A84F497001FD488 /* ExercicioPillha */ = {
+		02CFBE0D1A84F497001FD488 /* TerminarPilha */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 02CFBE151A84F497001FD488 /* Build configuration list for PBXNativeTarget "ExercicioPillha" */;
+			buildConfigurationList = 02CFBE151A84F497001FD488 /* Build configuration list for PBXNativeTarget "TerminarPilha" */;
 			buildPhases = (
 				02CFBE0A1A84F497001FD488 /* Sources */,
 				02CFBE0B1A84F497001FD488 /* Frameworks */,
@@ -77,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = ExercicioPillha;
+			name = TerminarPilha;
 			productName = ExercicioPillha;
-			productReference = 02CFBE0E1A84F497001FD488 /* ExercicioPillha */;
+			productReference = 02CFBE0E1A84F497001FD488 /* TerminarPilha */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 02CFBE091A84F497001FD488 /* Build configuration list for PBXProject "ExercicioPillha" */;
+			buildConfigurationList = 02CFBE091A84F497001FD488 /* Build configuration list for PBXProject "TerminarPilha" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				02CFBE0D1A84F497001FD488 /* ExercicioPillha */,
+				02CFBE0D1A84F497001FD488 /* TerminarPilha */,
 			);
 		};
 /* End PBXProject section */
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02CFBE1A1A84F4C2001FD488 /* Pilha.m in Sources */,
 				02CFBE121A84F497001FD488 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,21 +208,21 @@
 		02CFBE161A84F497001FD488 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TerminarPilha;
 			};
 			name = Debug;
 		};
 		02CFBE171A84F497001FD488 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TerminarPilha;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		02CFBE091A84F497001FD488 /* Build configuration list for PBXProject "ExercicioPillha" */ = {
+		02CFBE091A84F497001FD488 /* Build configuration list for PBXProject "TerminarPilha" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				02CFBE131A84F497001FD488 /* Debug */,
@@ -225,7 +231,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		02CFBE151A84F497001FD488 /* Build configuration list for PBXNativeTarget "ExercicioPillha" */ = {
+		02CFBE151A84F497001FD488 /* Build configuration list for PBXNativeTarget "TerminarPilha" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				02CFBE161A84F497001FD488 /* Debug */,
